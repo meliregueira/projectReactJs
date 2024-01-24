@@ -4,8 +4,10 @@ import "./carrito.css"
 
 const Carrito = () => {
   return (
-    
-    <img src="./carrito.png" alt="icono-carrito" />
+    <>
+        <img src="./carrito.png" alt="icono-carrito" />
+        <p>0</p>
+    </>
   )
 }
 
